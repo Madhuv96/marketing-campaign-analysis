@@ -1,24 +1,31 @@
-# marketing-campaign-analysis
-# Marketing Campaign Analysis
+# Marketing-campaign-analysis
 
-This repository contains the code and analysis for a data science project focused on marketing campaign analysis. The project explores customer responses to marketing campaigns, aiming to identify patterns and insights that can inform future marketing strategies. The analysis covers various aspects, including customer demographics, campaign outcomes, and key performance indicators.
+## Overview
 
-## Getting Started
+This repository contains the code and data for the Propensify data science project. The goal of the project is to develop a propensity model to identify the likelihood of customer response to a marketing campaign.
 
-### Prerequisites
-- Python 3.x
-- Jupyter Notebook
+## Project Structure
 
-### Installation
-1. Clone the repository: `git clone https://github.com/your-username/marketing-campaign-analysis.git`
-2. Navigate to the project directory: `cd marketing-campaign-analysis`
-3. Install dependencies: `pip install -r requirements.txt`
+- `notebooks/`: Contains Jupyter notebooks for data exploration, model development, and analysis.
+  - `01_data_exploration.ipynb`: Data exploration and manipulation.
+  - `02_model_development.ipynb`: Machine learning model development.
+  - `03_analysis.ipynb`: Analysis of results.
+  - `04_evaluation.ipynb`: Evaluation and performance metrics.
 
-## Usage
+- `data/`: Includes the input datasets and the predicted outcomes.
+  - `train.xlsx`: Training data.
+  - `test.xlsx`: Testing data.
+  - `test_predicted.csv`: Predicted outcomes for the test data.
 
-1. Open the Jupyter Notebook: `jupyter notebook`
-2. Explore the analysis in the `analysis.ipynb` notebook.
+## How to Use
 
-## License
+1. **Notebooks:**
+   - Explore the Jupyter notebooks in the `notebooks/` directory for step-by-step details of the data science pipeline.
 
-This project is licensed under the [MIT License](LICENSE).
+2. **Input Data:**
+   - Find the training data in the `data/train.xlsx` file.
+   - Test your model on new data using the `data/test.xlsx` file.
+
+3. **Predicted Outcomes:**
+   - View the predicted outcomes for the test data in the `data/test_predicted.csv` file.
+
